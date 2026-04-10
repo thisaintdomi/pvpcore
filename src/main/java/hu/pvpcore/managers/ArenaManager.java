@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitTask;
-import org.bukkit.Location; // FIX
+import org.bukkit.Location;
 
 import java.util.ArrayList;
 import java.util.Iterator;
