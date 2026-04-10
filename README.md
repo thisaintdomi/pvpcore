@@ -3,7 +3,6 @@
 ![Build](https://github.com/thisaintdomi/PvPCore/actions/workflows/build.yml/badge.svg)
 ![MC](https://img.shields.io/badge/Minecraft-1.21.4%2B-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Egy plugin amibe bele raktam mindent amit egy FullPVP vagy BoxPVP szervernek szüksége van. Nem kell 6 különböző plugin — CombatTag, KillStreak, Bounty, Kit, Prestige, Leaderboard, saját gazdaság — mind egyben, egy pluginban.
 
