@@ -5,7 +5,7 @@
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Egy plugin amibe belecsomagoltam mindent amit egy FullPVP vagy BoxPVP szervernek szüksége van. Nem kell 6 különböző plugin — CombatTag, KillStreak, Bounty, Kit, Prestige, Leaderboard, saját gazdaság — mind egyben, egy jarban.
+Egy plugin amibe bele raktam mindent amit egy FullPVP vagy BoxPVP szervernek szüksége van. Nem kell 6 különböző plugin — CombatTag, KillStreak, Bounty, Kit, Prestige, Leaderboard, saját gazdaság — mind egyben, egy pluginban.
 
 ---
 
@@ -96,10 +96,10 @@ Minden `/pvc reload`-dal újratöltődik, restart nélkül.
 
 ## Permissionok
 
-LuckPermshez tedd be a csoportba amit szeretnél:
+LuckPermsbe állitsd be amit szeretnél:
 
 ```
-# Alap játékos csoport
+# Alap játékos rang
 pvpcore.kit
 pvpcore.killstreak
 pvpcore.stats
@@ -112,7 +112,7 @@ pvpcore.coins
 # Moderátor
 pvpcore.stats.others
 
-# Admin (gyerekként tartalmazza a kit.bypass-cooldown-t és az arena.refill-t is)
+# Admin
 pvpcore.admin
 pvpcore.coins.admin
 ```
@@ -136,21 +136,6 @@ LuckPerms parancsok:
 
 ---
 
-## Build
-
-Minden push a `main` ágra automatikusan buildel GitHub Actions-szel. A JAR letölthető az Actions tab > legutóbbi build > Artifacts részből.
-
-Release létrehozásakor (GitHub Releases > Create release) a JAR automatikusan csatolódik hozzá.
-
-Manuálisan:
-```bash
-git clone https://github.com/thisaint_domi/PvPCore.git
-cd PvPCore
-mvn clean package
-# target/PvPCore-1.0.0.jar
-```
-
----
 
 ## Hologram
 
@@ -163,7 +148,3 @@ Ha **nincs** → saját invisible ArmorStand megoldás, semmi extra dependency n
 A pozíciót `leaderboard.yml`-ben állítod be, utána `/pvc holo` és mozog a hologram restart nélkül.
 
 ---
-
-## Licensz
-
-MIT
