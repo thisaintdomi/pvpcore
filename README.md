@@ -1,6 +1,6 @@
 # PvPCore
 
-![Build](https://github.com/thisaint_domi/PvPCore/actions/workflows/build.yml/badge.svg)
+![Build](https://github.com/thisaintdomi/PvPCore/actions/workflows/build.yml/badge.svg)
 ![MC](https://img.shields.io/badge/Minecraft-1.21.4%2B-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
