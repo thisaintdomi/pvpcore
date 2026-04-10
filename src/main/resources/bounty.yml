@@ -1,0 +1,6 @@
+min-amount: 100
+max-amount: 100000
+broadcast-on-set: true
+broadcast-on-collect: true
+set-message: "&e{setter} &7fejdíjat tűzött ki &c{target} &7fejére: &6{amount} coin"
+collect-message: "&e{killer} &7beváltotta &c{target} &7fejdíját! &6+{amount} coin"

@@ -1,0 +1,6 @@
+enabled: true
+duration: 15
+punish-logout: true
+logout-command: kill
+tag-message: "&cHarcban vagy! Kilépés tilos {seconds} másodpercig."
+untag-message: "&aKilépési tilalmad lejárt."

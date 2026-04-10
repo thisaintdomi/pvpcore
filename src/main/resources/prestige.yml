@@ -1,0 +1,17 @@
+enabled: true
+levels:
+  1:
+    required-kills: 100
+    reward-coins: 500
+    display: "&6[I]"
+    kit-cooldown-reduction: 30
+  2:
+    required-kills: 300
+    reward-coins: 1500
+    display: "&b[II]"
+    kit-cooldown-reduction: 60
+  3:
+    required-kills: 750
+    reward-coins: 5000
+    display: "&d[III]"
+    kit-cooldown-reduction: 120

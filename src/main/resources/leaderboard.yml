@@ -1,0 +1,10 @@
+update-interval: 300
+hologram:
+  enabled: true
+  location:
+    world: world
+    x: 0.5
+    y: 65.0
+    z: 0.5
+  title: "&6&lTop Játékosok"
+  format: "&e#{pos} &f{player} &7- &c{kills} ölés"

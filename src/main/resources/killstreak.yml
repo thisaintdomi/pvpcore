@@ -1,0 +1,16 @@
+enabled: true
+broadcast-threshold: 5
+milestones:
+  5:
+    message: "&c{player} &7elért &c5 &7ölési sorozatot!"
+    sound: ENTITY_PLAYER_LEVELUP
+    coins: 10
+  10:
+    message: "&4&l{player} &c10 &7ölési sorozat! &4LEGENDARY!"
+    sound: ENTITY_WITHER_SPAWN
+    coins: 25
+  25:
+    message: "&5&l{player} &d25 &7ölési sorozat! &5GODLIKE!"
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    coins: 75
+ended-broadcast: "&7{player} &csorozata megtört! &7({streak} ölés)"

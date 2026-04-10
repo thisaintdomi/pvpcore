@@ -1,0 +1,93 @@
+name: PvPCore
+version: '${project.version}'
+main: hu.pvpcore.PvPCore
+api-version: '1.21'
+description: All-in-one FullPVP and BoxPVP suite
+authors: [thisaint_domi]
+softdepend: [DecentHolograms, LuckPerms]
+
+commands:
+  pvpcore:
+    description: Main admin command
+    aliases: [pvc]
+    permission: pvpcore.admin
+  killstreak:
+    description: Check your killstreak
+    aliases: [ks]
+    permission: pvpcore.killstreak
+  stats:
+    description: View your PvP statistics
+    permission: pvpcore.stats
+  leaderboard:
+    description: View the top players
+    aliases: [lb, top]
+    permission: pvpcore.leaderboard
+  kit:
+    description: Open kit selector
+    permission: pvpcore.kit
+  bounty:
+    description: Manage bounties
+    permission: pvpcore.bounty
+  prestige:
+    description: View or claim prestige
+    permission: pvpcore.prestige
+  coins:
+    description: View your coins
+    permission: pvpcore.coins
+
+permissions:
+  pvpcore.admin:
+    description: Full admin access to all commands and features
+    default: op
+    children:
+      pvpcore.coins.admin: true
+      pvpcore.arena.refill: true
+      pvpcore.kit.bypass-cooldown: true
+
+  pvpcore.coins.admin:
+    description: Can add/remove/set coins for other players
+    default: op
+
+  pvpcore.arena.refill:
+    description: Can manually trigger arena chest refill
+    default: op
+
+  pvpcore.kit.bypass-cooldown:
+    description: Bypass kit cooldowns entirely
+    default: op
+
+  pvpcore.kit:
+    description: Can open the kit selector and use kits
+    default: true
+
+  pvpcore.killstreak:
+    description: Can use /killstreak
+    default: true
+
+  pvpcore.stats:
+    description: Can view own stats
+    default: true
+
+  pvpcore.stats.others:
+    description: Can view other players stats
+    default: op
+
+  pvpcore.leaderboard:
+    description: Can view the leaderboard
+    default: true
+
+  pvpcore.bounty:
+    description: Can view bounties
+    default: true
+
+  pvpcore.bounty.set:
+    description: Can place bounties on other players
+    default: true
+
+  pvpcore.prestige:
+    description: Can use the prestige system
+    default: true
+
+  pvpcore.coins:
+    description: Can check own coin balance
+    default: true

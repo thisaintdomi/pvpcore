@@ -1,0 +1,37 @@
+cooldown: 300
+kits:
+  warrior:
+    display-name: "&cHarcos"
+    icon: DIAMOND_SWORD
+    cooldown: 300
+    items:
+      helmet: DIAMOND_HELMET
+      chestplate: DIAMOND_CHESTPLATE
+      leggings: DIAMOND_LEGGINGS
+      boots: DIAMOND_BOOTS
+      sword: DIAMOND_SWORD
+      food: 32
+  archer:
+    display-name: "&aÍjász"
+    icon: BOW
+    cooldown: 300
+    items:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
+      bow: BOW
+      arrows: 64
+      sword: IRON_SWORD
+      food: 32
+  tank:
+    display-name: "&9Tank"
+    icon: IRON_CHESTPLATE
+    cooldown: 300
+    items:
+      helmet: NETHERITE_HELMET
+      chestplate: NETHERITE_CHESTPLATE
+      leggings: NETHERITE_LEGGINGS
+      boots: NETHERITE_BOOTS
+      sword: STONE_SWORD
+      food: 32

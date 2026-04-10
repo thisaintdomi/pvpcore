@@ -1,0 +1,6 @@
+kill-reward: 10
+assist-reward: 3
+streak-bonus-multiplier: 1.5
+death-drop:
+  enabled: true
+  percentage: 5

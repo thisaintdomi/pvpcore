@@ -1,0 +1,3 @@
+enabled: true
+auto-reset: true
+chest-refill-interval: 120
